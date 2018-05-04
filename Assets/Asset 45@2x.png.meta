@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: ccec4d7a2de14db4cadcffdb9ecbde6a
+timeCreated: 1524852130
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Asset 45@2x_0
+    21300002: Asset 45@2x_1
+    21300004: Asset 45@2x_2
+    21300006: Asset 45@2x_3
+    21300008: Asset 45@2x_4
+    21300010: Asset 45@2x_5
+    21300012: Asset 45@2x_6
+    21300014: Asset 45@2x_7
+    21300016: Asset 45@2x_8
+    21300018: Asset 45@2x_9
+    21300020: Asset 45@2x_10
+    21300022: Asset 45@2x_11
+    21300024: Asset 45@2x_12
+    21300026: Asset 45@2x_13
+    21300028: Asset 45@2x_14
+    21300030: Asset 45@2x_15
+    21300032: Asset 45@2x_16
+    21300034: Asset 45@2x_17
+    21300036: Asset 45@2x_18
+    21300038: Asset 45@2x_19
+    21300040: Asset 45@2x_20
+    21300042: Asset 45@2x_21
+    21300044: Asset 45@2x_22
+    21300046: Asset 45@2x_23
+    21300048: Asset 45@2x_24
+    21300050: Asset 45@2x_25
+    21300052: Asset 45@2x_26
+    21300054: Asset 45@2x_27
+    21300056: Asset 45@2x_28
+    21300058: Asset 45@2x_29
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Asset 45@2x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 867
+        width: 104
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 867
+        width: 104
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_2
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 867
+        width: 104
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_3
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 867
+        width: 104
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_4
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 867
+        width: 104
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_5
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 867
+        width: 104
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 649
+        width: 104
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 649
+        width: 105
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 649
+        width: 107
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 649
+        width: 104
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_10
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 649
+        width: 107
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_11
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 649
+        width: 110
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 422
+        width: 108
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 422
+        width: 113
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_14
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 421
+        width: 117
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 422
+        width: 111
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_16
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 422
+        width: 115
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_17
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 421
+        width: 115
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 204
+        width: 110
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 204
+        width: 115
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_20
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 203
+        width: 117
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_21
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 204
+        width: 111
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_22
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 204
+        width: 117
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_23
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 203
+        width: 117
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 112
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_25
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 3
+        width: 120
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_26
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3
+        width: 121
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_27
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 3
+        width: 122
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_28
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 4
+        width: 119
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Asset 45@2x_29
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1
+        width: 121
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
