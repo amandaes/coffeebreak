@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerInteract : MonoBehaviour {
 
@@ -34,11 +35,14 @@ public class PlayerInteract : MonoBehaviour {
                     {
                         //we found the item needed
                         currentInterObjScript.getCoffee = false;
-                        //Debug.Log(currentInterObj.name + " got coffee");
+                        Debug.Log(currentInterObj.name + " in hand");
+
+                        //SceneManager.LoadScene(4);
                     }
                    
                     else{
-                    currentInterObjScript.pourCoffee();
+                    currentInterObjScript.PourCoffee();
+                        Debug.Log(currentInterObj.name + " not found");
                     }
                 }
             }

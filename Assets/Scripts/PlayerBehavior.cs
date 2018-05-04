@@ -9,6 +9,9 @@ public class PlayerBehavior : MonoBehaviour {
     private bool disabled; //player disable movement
     public CountdownTime myInstanceOfCountdowntime;
 
+    public GameObject playerSpeech;
+    public float killSpeech = 4f; 
+
     //public GameObject speechBub;
     //public Transform peerPos;
 
@@ -82,7 +85,9 @@ public class PlayerBehavior : MonoBehaviour {
             Invoke("ResetDisabled", 4.0f); //after 4 seconds call ResetDisabled()
             peerCol.gameObject.SendMessage("DisablePeers");
 
-            //Instantiate(speechBub, peerPos.position, Quaternion.identity);
+            GameObject newplayerTalk = Instantiate(playerSpeech);
+            newplayerTalk.transform.position = new Vector2(transform.position.x - 0.8f, transform.position.y + 1.2f);
+            Destroy(newplayerTalk, killSpeech);
         }
 
             switch (peerCol.gameObject.tag)

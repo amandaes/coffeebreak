@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryScript : MonoBehaviour {
     //creating an inventory for the player
+
     public GameObject[] inventory = new GameObject[2];
+    public Image[] inventorySlots = new Image[2];
 
     public void AddItem(GameObject item)
     {
@@ -16,7 +19,8 @@ public class InventoryScript : MonoBehaviour {
             if(inventory [i] == null)
             {
                 inventory[i] = item;
-                Debug.Log(item.name + " was added");
+                inventorySlots[i].overrideSprite = item.GetComponent<SpriteRenderer>().sprite; //get sprite for cup to put in item slot
+                Debug.Log(item.name + " was added to inventory");
                 itemAdded = true;
                 break;
             }
@@ -35,6 +39,7 @@ public class InventoryScript : MonoBehaviour {
         {
             if (inventory [i] == item)
             {
+                //found the cup
                 return true;
             }
         }

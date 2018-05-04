@@ -18,18 +18,14 @@ public class RedCup : MonoBehaviour {
         gameObject.SetActive(false);
     }
 
-    public void pourCoffee()
+
+    public void PourCoffee()
     {
-        anim.SetBool("pour", true);
+
+        anim.SetBool("coffeemachine", true);
     }
 
-  //  void OnTriggerEnter2D(Collider2D col)
-    //{
-    //    if (col.transform.tag == "Player")
-     //   {
-     //       transform.parent = col.transform;
-    //    }
-   // }
+ 
 
 
 }

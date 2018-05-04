@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1319232921412002}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.69, y: -6.92, z: 0}
+  m_LocalPosition: {x: 11.418903, y: -2.11, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children: []
   m_Father: {fileID: 0}
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2686cdf528ec3cc47817109bb7c1c622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 2
+  walkSpeed: 4
   verticalWalk: 1
   speechTime: 4
   speechBub: {fileID: 1824253668955732, guid: e3dd011c504c4414baaa5c2496c9fb60, type: 2}
