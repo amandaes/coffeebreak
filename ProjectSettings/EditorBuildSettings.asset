@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CoffeeBreakUnity.unity
     guid: bbe7afe15c317394f83378a6133a36a3
-  - enabled: 0
+  - enabled: 1
     path: Assets/HowToPlay.unity
     guid: e8eea15640934de49853c92642bf60e1
+  - enabled: 1
+    path: Assets/Win.unity
+    guid: 66046bb8b0a4a9047a00ca9b74dc460b
+  - enabled: 1
+    path: Assets/Lose.unity
+    guid: 3910a5d9ff12ffe44aeb6a2a08b90ff3

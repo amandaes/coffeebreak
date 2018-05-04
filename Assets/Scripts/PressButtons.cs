@@ -15,4 +15,15 @@ public class PressButtons : MonoBehaviour {
     {
         SceneManager.LoadScene(2); //change to scene 2 (tutorial)
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
 }

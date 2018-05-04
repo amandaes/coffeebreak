@@ -37,7 +37,7 @@ public class PlayerInteract : MonoBehaviour {
                         currentInterObjScript.getCoffee = false;
                         Debug.Log(currentInterObj.name + " in hand");
 
-                        //SceneManager.LoadScene(4);
+                        SceneManager.LoadScene(3);
                     }
                    
                     else{
