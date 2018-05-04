@@ -25,10 +25,10 @@ public class CountdownTime : MonoBehaviour {
             startingTime = 0;
         
 
-        if (startingTime == 0)
-        {
-            SceneManager.LoadScene(3);
-        }
+        //if (startingTime == 0)
+       // {
+        //    SceneManager.LoadScene(3);
+        //}
     }
 
 
