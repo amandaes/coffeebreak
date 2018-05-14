@@ -46,4 +46,7 @@ public class InventoryScript : MonoBehaviour {
         //if item not found
         return false;
     }
+
+    
+
 }

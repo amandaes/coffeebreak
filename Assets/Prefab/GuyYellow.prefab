@@ -147,7 +147,7 @@ MonoBehaviour:
   walkSpeed: 3
   verticalWalk: 1
   speechTime: 4
-  speechBub: {fileID: 1254918499837440, guid: 0b1f7f6bc027b1a48b59333b33426cb5, type: 2}
+  speechBub: {fileID: 1611690277963798, guid: 5992c55e071423e489687710e1eef6ed, type: 2}
 --- !u!114 &114654122790304650
 MonoBehaviour:
   m_ObjectHideFlags: 1

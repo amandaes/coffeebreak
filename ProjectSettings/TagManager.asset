@@ -11,6 +11,8 @@ TagManager:
   - interObj
   - plus3
   - SpeechBubble
+  - ghost
+  - Broken
   layers:
   - Default
   - TransparentFX

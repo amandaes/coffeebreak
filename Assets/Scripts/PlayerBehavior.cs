@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerBehavior : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class PlayerBehavior : MonoBehaviour {
     public CountdownTime myInstanceOfCountdowntime;
 
     public GameObject playerSpeech;
+    public GameObject broken;
     public float killSpeech = 4f; 
 
     //public GameObject speechBub;
@@ -82,22 +84,36 @@ public class PlayerBehavior : MonoBehaviour {
         if (peerCol.gameObject.tag == "Peers")
         {
             disabled = true;
+            rb.velocity = new Vector2(0f, 0f);
             Invoke("ResetDisabled", 4.0f); //after 4 seconds call ResetDisabled()
             peerCol.gameObject.SendMessage("DisablePeers");
 
             GameObject newplayerTalk = Instantiate(playerSpeech);
             newplayerTalk.transform.position = new Vector2(transform.position.x - 0.8f, transform.position.y + 1.2f);
-            Destroy(newplayerTalk, killSpeech);
+            Destroy(newplayerTalk, killSpeech); //destroy the speech bubble after killspeech time
         }
 
             switch (peerCol.gameObject.tag)
             {
                 case "plus3":
-                    myInstanceOfCountdowntime.startingTime += 3f;
+
+                SoundEffect.PlaySound("ClockTick");
+
+                myInstanceOfCountdowntime.startingTime += 3f;
                     peerCol.gameObject.SetActive(false);
                     break;
 
-                    
+                case "ghost":
+                SceneManager.LoadScene(4);
+
+                break;
+
+                case "Broken":
+                GameObject brokenSpeech = Instantiate(broken);
+                brokenSpeech.transform.position = new Vector2(transform.position.x - 0.8f, transform.position.y + 1.2f);
+                Destroy(brokenSpeech, 2f);
+                break;
+
             }
     }
 

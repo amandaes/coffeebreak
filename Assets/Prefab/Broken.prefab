@@ -9,55 +9,55 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1021342403788806}
+  m_RootGameObject: {fileID: 1610098791325554}
   m_IsPrefabParent: 1
---- !u!1 &1021342403788806
+--- !u!1 &1610098791325554
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4538624916415396}
-  - component: {fileID: 212758338107513846}
-  - component: {fileID: 114409287083567580}
+  - component: {fileID: 4098313403239432}
+  - component: {fileID: 212253670474812492}
+  - component: {fileID: 114734932243178758}
   m_Layer: 0
-  m_Name: SpeechBubble_3
+  m_Name: Broken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4538624916415396
+--- !u!4 &4098313403239432
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1021342403788806}
+  m_GameObject: {fileID: 1610098791325554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.156549, y: 0.30827403, z: 0}
+  m_LocalPosition: {x: -9.176158, y: 2.9279094, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114409287083567580
+--- !u!114 &114734932243178758
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1021342403788806}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1610098791325554}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52417763498858c4e929aa0ba6309ae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!212 &212758338107513846
+--- !u!212 &212253670474812492
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1021342403788806}
+  m_GameObject: {fileID: 1610098791325554}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -85,13 +85,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3198
-  m_Sprite: {fileID: 21300006, guid: a537f68a5174f9b41be47b685c5cc1c6, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 280ed010ddc78124fbfc4fc3c91400e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.67, y: 0.89}
+  m_Size: {x: 1.68, y: 0.91}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

@@ -20,8 +20,8 @@ public class PeerBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void Update () {
+       
         //making the enemy move left to right or up and down
-
         if (disabled == false)
         {
             if (verticalWalk == true) //if walking vertical is true do this 
@@ -57,6 +57,9 @@ public class PeerBehavior : MonoBehaviour {
         switch (collision.gameObject.tag)
         {
             case "Player":
+
+                SoundEffect.PlaySound("PeerTalk");
+
                 GameObject newSpeech = Instantiate(speechBub);
                 newSpeech.transform.position = new Vector2(transform.position.x + 0.5f, transform.position.y + 1.5f);
 
